@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #1D1D28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-right: 10px;
+}
+
+header a{
+    color: #fff;
+    padding: 0 8px;
+}
+
+section{
+    flex: 1;
+    overflow-y: scroll;
+    background: #1D1D28;
+}
+
+.mainTop{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2CBB55;
+}
+
+.mainTop>img{
+    width: 35px;
+    height: 17px;
+    margin: 0 auto;
+}
+
+.mainTop>p{
+    width: 220px;
+    height: 30px;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 15px;
+}
+
+.mainTop>p>input{
+    border: none;
+}
+
+.mainTop>p>i{
+    color: #ccc;
+    padding-left: 10px;
+}
+
+.mainTop>a{
+    color: #000;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.mainTop>a>i{
+    font-size: 8px;
+    padding-right: 3px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+}
+
+.nav{
+    width: 100%;
+}
+
+.nav ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav ul li{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav ul li img{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.nav ul li span{
+    line-height: 3;
+    color: #fff;
+    font-size: 12px;
+}
+
+.mainLogo{
+    width: 100%;
+    padding-left: 20px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.mainLogo img{
+    width: 3px;
+    height: 12px;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+}
+
+.yuemei{
+    width: 200px;
+    height: 90px;
+    background-image: url(../imgs/国际@2x.png);
+    position: relative;
+    border-radius: 15px;
+}
+
+.yuemei span{
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+
+footer ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul li{
+    width: 50%;
+    display: flex;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li img{
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+footer ul li span{
+    font-size: 10px;
+}
